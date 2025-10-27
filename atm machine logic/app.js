@@ -13,14 +13,10 @@ else if((pincode == userpincode)) {
 }
 
 let withdraw = prompt("Enter Your Amount");
-if(salary > withdraw) {
-    salary = salary - withdraw
+if(salary > withdraw ) {
+        salary = salary - withdraw
     atmMachine = atmMachine - withdraw
-    console.log(atmMachine) 
-}else if (withdraw <= salary){
-    salary =  atmMachine - salary   
-    
-    console.log("Amount Successfully Withdraw" ,salary)
+    console.log("Amount Successfully Withdraw",withdraw,"remaining balance",atmMachine)  
 }
 else if(salary <= withdraw && atmMachine > withdraw){
     console.log("app salary s ziada pese mangrahe ho")
