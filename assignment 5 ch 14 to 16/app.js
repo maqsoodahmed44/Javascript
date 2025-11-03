@@ -22,6 +22,8 @@ console.log(`${studentName[0]} ${studentMarks[0]} ${percentage[0]}%`)
 console.log(`${studentName[1]} ${studentMarks[1]} ${percentage[1]}%`)  
 console.log(`${studentName[2]} ${studentMarks[2]} ${percentage[2]}%`)  
 
+//question no 09
+let colorName = ["Yellow",]
 
 //question no 10
 let scoresOfStudent = [320,230,480,120,]
@@ -71,8 +73,9 @@ console.log(lifo.pop());
 
 //question no 15
 
-// let brands = ["Motorolla","NOkia","Apple","Google",]
-// document.writein(brands);
+let brands = ["Motorolla","NOkia","Apple","Google",]
+
+console.log(brands)
 
 
 
